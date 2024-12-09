@@ -31,7 +31,7 @@
     /* Default color used for the majority of the text content across the entire website */
     --heading-color: #2d465e;
     /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #34bf49;
+    --accent-color: #eac36b;
     /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff;
     /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -45,7 +45,7 @@
 :root {
     --nav-color: #212529;
     /* The default color of the main navmenu links */
-    --nav-hover-color: #34bf49;
+    --nav-hover-color: # eac36b;
     /* Applied to main navmenu links when they are hovered over or active */
     --nav-mobile-background-color: #ffffff;
     /* Used as the background color for mobile navigation menu */
@@ -53,7 +53,7 @@
     /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #212529;
     /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #34bf49;
+    --nav-dropdown-hover-color: #eac36b;
     /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -937,86 +937,86 @@ section,
 
 
 /*--------------------------------------------------------------
-# Blog Posts Section
+# Blog invests Section
 --------------------------------------------------------------*/
 
-.blog-posts .title-wrap {
+.why-invest .title-wrap {
     padding-bottom: 30px;
 }
 
-.blog-posts .content-subtitle {
+.why-invest .content-subtitle {
     font-size: 15px;
     margin-bottom: 10px;
     display: block;
     color: var(--default-color);
 }
 
-.blog-posts .content-title {
+.why-invest .content-title {
     color: var(--heading-color);
     font-size: 22px;
     margin-bottom: 30px;
 }
 
-.blog-posts .post-entry .thumb {
+.why-invest .invest-entry .thumb {
     margin-bottom: 20px;
 }
 
-.blog-posts .post-entry .thumb img {
+.why-invest .invest-entry .thumb img {
     transition: 0.3s all ease;
 }
 
-.blog-posts .post-entry .thumb:hover img {
+.why-invest .invest-entry .thumb:hover img {
     opacity: 0.8;
 }
 
-.blog-posts .post-entry .meta {
+.why-invest .invest-entry .meta {
     font-size: 12px;
     margin-bottom: 20px;
 }
 
-.blog-posts .post-entry .meta .cat {
+.why-invest .invest-entry .meta .cat {
     text-transform: uppercase;
     font-weight: normal;
     color: var(--heading-color);
 }
 
-.blog-posts .post-entry .meta .date {
+.why-invest .invest-entry .meta .date {
     color: color-mix(in srgb, var(--default-color), transparent 25%);
 }
 
-.blog-posts .post-entry .post-content {
+.why-invest .invest-entry .invest-content {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.blog-posts .post-entry .post-content h3 {
+.why-invest .invest-entry .invest-content h3 {
     font-size: 18px;
     line-height: 1.2;
 }
 
-.blog-posts .post-entry .post-content h3 a {
+.why-invest .invest-entry .invest-content h3 a {
     color: var(--heading-color);
 }
 
-.blog-posts .post-entry .post-content h3 a:hover {
+.why-invest .invest-entry .invest-content h3 a:hover {
     color: var(--accent-color);
 }
 
-.blog-posts .author .pic {
+.why-invest .author .pic {
     flex: 0 0 50px;
     margin-right: 20px;
 }
 
-.blog-posts .author .author-name {
+.why-invest .author .author-name {
     line-height: 1.3;
 }
 
-.blog-posts .author .author-name strong {
+.why-invest .author .author-name strong {
     color: var(--heading-color);
     font-weight: normal;
 }
 
-.blog-posts .author .author-name span {
+.why-invest .author .author-name span {
     font-size: 14px;
     color: color-mix(in srgb, var(--default-color), transparent 25%);
 }
@@ -1141,10 +1141,10 @@ section,
 
 
 /*--------------------------------------------------------------
-# Pricing Section
+# call-to-action Section
 --------------------------------------------------------------*/
 
-.pricing .pricing-item {
+.call-to-action .call-to-action-item {
     background-color: var(--surface-color);
     box-shadow: 0px 5px 90px rgba(0, 0, 0, 0.1);
     padding: 40px 20px;
@@ -1154,33 +1154,33 @@ section,
     overflow: hidden;
 }
 
-.pricing .pricing-item h3 {
+.call-to-action .call-to-action-item h3 {
     padding: 15px;
     margin-top: 15px;
     font-size: 18px;
     font-weight: 600;
 }
 
-.pricing .pricing-item h4 {
+.call-to-action .call-to-action-item h4 {
     color: var(--accent-color);
     font-size: 42px;
     font-family: var(--default-font);
     font-weight: 500;
 }
 
-.pricing .pricing-item h4 sup {
+.call-to-action .call-to-action-item h4 sup {
     font-size: 20px;
     top: -15px;
     left: -3px;
 }
 
-.pricing .pricing-item h4 span {
+.call-to-action .call-to-action-item h4 span {
     color: color-mix(in srgb, var(--default-color), transparent 40%);
     font-size: 16px;
     font-weight: 300;
 }
 
-.pricing .pricing-item ul {
+.call-to-action .call-to-action-item ul {
     padding: 20px 0;
     list-style: none;
     text-align: center;
@@ -1188,21 +1188,21 @@ section,
     font-size: 14px;
 }
 
-.pricing .pricing-item ul li {
+.call-to-action .call-to-action-item ul li {
     padding-bottom: 16px;
 }
 
-.pricing .pricing-item ul .na {
+.call-to-action .call-to-action-item ul .na {
     color: color-mix(in srgb, var(--default-color), transparent 60%);
     text-decoration: line-through;
 }
 
-.pricing .pricing-item .btn-wrap {
+.call-to-action .call-to-action-item .btn-wrap {
     padding: 15px;
     text-align: center;
 }
 
-.pricing .pricing-item .btn-buy {
+.call-to-action .call-to-action-item .btn-buy {
     color: var(--accent-color);
     background-color: transparent;
     border: 2px solid var(--accent-color);
@@ -1215,22 +1215,22 @@ section,
     transition: 0.3s;
 }
 
-.pricing .pricing-item .btn-buy:hover {
+.call-to-action .call-to-action-item .btn-buy:hover {
     background: var(--accent-color);
     color: var(--contrast-color);
 }
 
-.pricing .recommended .btn-buy {
+.call-to-action .recommended .btn-buy {
     background: var(--accent-color);
     color: var(--contrast-color);
 }
 
-.pricing .recommended .btn-buy:hover {
+.call-to-action .recommended .btn-buy:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
     border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.pricing .recommended-badge {
+.call-to-action .recommended-badge {
     position: absolute;
     top: 20px;
     left: 50%;
@@ -1761,40 +1761,40 @@ section,
 
 
 /*--------------------------------------------------------------
-# Blog Posts 2 Section
+# Blog invests 2 Section
 --------------------------------------------------------------*/
 
-.blog-posts-2 article {
+.why-invest-2 article {
     height: 100%;
 }
 
-.blog-posts-2 .post-img {
+.why-invest-2 .invest-img {
     max-height: 440px;
     overflow: hidden;
 }
 
-.blog-posts-2 .title {
+.why-invest-2 .title {
     font-size: 20px;
     font-weight: 700;
     padding: 0;
     margin: 5px 0;
 }
 
-.blog-posts-2 .title a {
+.why-invest-2 .title a {
     color: var(--heading-color);
     transition: 0.3s;
 }
 
-.blog-posts-2 .title a:hover {
+.why-invest-2 .title a:hover {
     color: var(--accent-color);
 }
 
-.blog-posts-2 .meta-top {
+.why-invest-2 .meta-top {
     margin-top: 10px;
     color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.blog-posts-2 .meta-top ul {
+.why-invest-2 .meta-top ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -1803,13 +1803,13 @@ section,
     margin: 0;
 }
 
-.blog-posts-2 .meta-top i {
+.why-invest-2 .meta-top i {
     font-size: 24px;
     line-height: 0;
     color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
-.blog-posts-2 .meta-top a {
+.why-invest-2 .meta-top a {
     color: color-mix(in srgb, var(--default-color), transparent 40%);
     font-size: 14px;
     display: inline-block;
@@ -1872,7 +1872,7 @@ section,
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
-.blog-details .post-img {
+.blog-details .invest-img {
     margin: -30px -30px 20px -30px;
     overflow: hidden;
 }
@@ -2372,32 +2372,32 @@ section,
     border-color: var(--accent-color);
 }
 
-.recent-posts-widget .post-item {
+.recent-invests-widget .invest-item {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.recent-posts-widget .post-item:last-child {
+.recent-invests-widget .invest-item:last-child {
     margin-bottom: 0;
 }
 
-.recent-posts-widget .post-item h4 {
+.recent-invests-widget .invest-item h4 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.recent-posts-widget .post-item h4 a {
+.recent-invests-widget .invest-item h4 a {
     color: var(--default-color);
     transition: 0.3s;
 }
 
-.recent-posts-widget .post-item h4 a:hover {
+.recent-invests-widget .invest-item h4 a:hover {
     color: var(--accent-color);
 }
 
-.recent-posts-widget .post-item time {
+.recent-invests-widget .invest-item time {
     display: block;
     font-style: italic;
     font-size: 14px;
@@ -2438,7 +2438,7 @@ section,
 
 
 /*--------------------------------------------------------------
-# Pricing Section
+# call-to-action Section
 --------------------------------------------------------------*/
 
 .pricing .pricing-item {
